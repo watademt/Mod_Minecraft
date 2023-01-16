@@ -2,6 +2,7 @@ package net.anna.testmod;
 
 import com.mojang.logging.LogUtils;
 import net.anna.testmod.block.ModBlocks;
+import net.anna.testmod.items.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -24,7 +25,12 @@ public class TestMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+
+        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
