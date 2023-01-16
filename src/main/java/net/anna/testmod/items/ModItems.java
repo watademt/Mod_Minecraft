@@ -15,7 +15,7 @@ public class ModItems {
     public static final RegistryObject<Item> OSMIUM = ITEMS.register("osmium", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
     public static final RegistryObject<Item> FULLERINE = ITEMS.register("fullerine", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
     public static final RegistryObject<Item> FULLERITE = ITEMS.register("fullerite", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
-
+    public static final RegistryObject<Item> RAW_FULLERINE = ITEMS.register("raw_fullerine", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
 
     //add fullerite alloy ingot,
     // osmium, osmium ore
