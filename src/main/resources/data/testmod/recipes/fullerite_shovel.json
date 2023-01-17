@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O",
+    "X",
+    "X"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:netherite_shovel"
+    },
+    "X": {
+      "item": "testmod:fullerite"
+    }
+  },
+  "result": {
+    "item": "testmod:fullerite_shovel"
+  }
+}

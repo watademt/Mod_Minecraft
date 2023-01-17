@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 0",
+    "0X0",
+    "000"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:netherite_helmet"
+    },
+    "O": {
+      "item": "testmod:fullirite"
+    }
+  },
+  "result": {
+    "item": "testmod:fullirite_chest"
+  }
+}
