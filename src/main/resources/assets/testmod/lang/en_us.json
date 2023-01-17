@@ -1,5 +1,6 @@
 {
   "item.testmod.osmium": "Osmium",
   "item.testmod.fullerine": "Fullerine",
-  "item.testmod.fullerite": "Fullerite"
+  "item.testmod.fullerite": "Fullerite",
+  "block.testmod.fullerin_ore": "Fullerin Ore"
 }
