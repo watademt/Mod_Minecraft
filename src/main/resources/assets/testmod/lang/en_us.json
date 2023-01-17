@@ -3,5 +3,6 @@
   "item.testmod.fullerine": "Fullerine",
   "item.testmod.raw_fullerine": "Raw Fullerine",
   "item.testmod.fullerite": "Fullerite",
-  "block.testmod.fullerin_ore": "Fullerin Ore"
+  "block.testmod.fullerine_ore": "Fullerine Ore",
+  "block.testmod.osmium_ore": "Osmium Ore"
 }

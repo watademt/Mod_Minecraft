@@ -22,7 +22,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TestMod.MOD_ID);
 
-    public static final RegistryObject<Block> FULLERIN_ORE = registerBlock("fullerin_ore",
+    public static final RegistryObject<Block> FULLERIN_ORE = registerBlock("fullerine_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 7)), ModCreativeModeTab.TEST_TAB);
