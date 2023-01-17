@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MOD_ID);
 
-    public static final RegistryObject<Item> OSMIUM = ITEMS.register("osmium", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> OSMIUM = ITEMS.register("osmium", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
 
     //add fullerite alloy ingot,
     // osmium, osmium ore
