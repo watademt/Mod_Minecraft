@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "X X",
-    " O ",
+    " C ",
     "Z Z"
   ],
   "key": {
-    "O": {
+    "C": {
       "item": "minecraft:netherite_ingot"
     },
     "X": {
-      "item": "testmod:fullerin"
+      "item": "testmod:fullerine"
     },
     "Z": {
       "item": "testmod:osmium"
