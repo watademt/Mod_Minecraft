@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OXO"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:netherite_boots"
+    },
+    "O": {
+      "item": "testmod:fullerite"
+    }
+  },
+  "result": {
+    "item": "testmod:fullerite_feets"
+  }
+}

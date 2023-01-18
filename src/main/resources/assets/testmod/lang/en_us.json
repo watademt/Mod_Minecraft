@@ -4,5 +4,14 @@
   "item.testmod.raw_fullerine": "Raw Fullerine",
   "item.testmod.fullerite": "Fullerite",
   "block.testmod.fullerine_ore": "Fullerine Ore",
-  "block.testmod.osmium_ore": "Osmium Ore"
+  "block.testmod.osmium_ore": "Osmium Ore",
+  "item.testmod.fullerite_helmet":"Fullerite Helmet",
+  "item.testmod.fullerite_chest": "Fullerite Chestplate",
+  "item.testmod.fullerite_legs": "Fullerite Leggings",
+  "item.testmod.fullerite_feets": "Fullerite Boots",
+  "item.testmod.fullerite_pickaxe": "Fullerite Pickaxe",
+  "item.testmod.fullerite_sword": "Fullerite Sword",
+  "item.testmod.fullerite_shovel": "Fullerite Shovel",
+  "item.testmod.fullerite_axe": "Fullerite Axe",
+  "item.testmod.fullerite_hoe": "Fullerite hoe"
 }

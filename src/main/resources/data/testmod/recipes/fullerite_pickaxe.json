@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XOX",
+    " X ",
+    " X "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "X": {
+      "item": "testmod:fullerite"
+    }
+  },
+  "result": {
+    "item": "testmod:fullerite_pickaxe"
+  }
+}

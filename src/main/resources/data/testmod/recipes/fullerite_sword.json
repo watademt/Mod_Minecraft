@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "O"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:netherite_sword"
+    },
+    "X": {
+      "item": "testmod:fullerite"
+    }
+  },
+  "result": {
+    "item": "testmod:fullerite_sword"
+  }
+}
