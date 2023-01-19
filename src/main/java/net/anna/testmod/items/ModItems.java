@@ -36,8 +36,12 @@ public class ModItems {
             new HoeItem(ToolTiers.FULLERITE, 1, 3.5f, new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
 
     //Fullerine Armor
-    public static final RegistryObject<ArmorItem> FULLERITE_HELMET = ITEMS.register("fullerite_helmet", () ->
-            new ArmorItem(ArmorTiers.FULLERITE, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
+    public static final RegistryObject<ArmorItem> FULLERITE_HELMET =
+            ITEMS.register("fullerite_helmet", () ->
+            new ArmorItem(ArmorTiers.FULLERITE, EquipmentSlot.HEAD,
+                    new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
+
+
     public static final RegistryObject<ArmorItem> FULLERITE_CHEST = ITEMS.register("fullerite_chest", () ->
             new ArmorItem(ArmorTiers.FULLERITE, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.TEST_TAB)));
     public static final RegistryObject<ArmorItem> FULLERITE_LEGS = ITEMS.register("fullerite_legs", () ->

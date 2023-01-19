@@ -9,7 +9,11 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Supplier;
 
-public record ModArmorMaterial(String name, int durability, int[] protection, int enchantAbility, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairMaterial) implements ArmorMaterial {
+public record ModArmorMaterial(String name,
+                               int durability, int[] protection,
+                               int enchantAbility, SoundEvent equipSound,
+                               float toughness, float knockbackResistance,
+                               Supplier<Ingredient> repairMaterial) implements ArmorMaterial {
 
     private static final int[] DURABILITY_PER_SLOT = new int[]{13, 15, 16, 11};
 
